@@ -78,7 +78,8 @@ FinanceFlow est une application web permettant de gérer vos relations amicales 
    - Rechercher des amis dans votre liste.
 
 2. **Gestion des transactions**
-   - Rechercher une transaction spécifique dans l'historique.
+   - Rechercher et filtrer une transaction spécifique dans l'historique.
+   - Envoyer/Recevoir de l'argent
 
 3. **Gestion de profil**
    - Modifier votre nom, prénom ou email.
