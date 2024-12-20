@@ -138,29 +138,24 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 7. Lancez le serveur Laravel :
    ```bash
-   php artisan serve
+      php artisan serve --host 127.0.0.1 --port 3000   
    ```
 
 ### 2. Configuration de l'environnement frontend (React + TypeScript + Vite)
 
-1. Rendez-vous dans le répertoire du frontend :
-   ```bash
-   cd frontend
-   ```
-
-2. Installez les dépendances Node.js :
+1. Installez les dépendances Node.js :
    ```bash
    npm install
    # ou
    yarn install
    ```
 
-3. Configurez les variables d'environnement dans un fichier `.env` (si nécessaire) :
+2. Configurez les variables d'environnement dans un fichier `.env` (si nécessaire) :
    ```env
    VITE_API_URL=http://localhost:8000
    ```
 
-4. Lancez le serveur de développement :
+3. Lancez le serveur de développement :
    ```bash
    npm run dev
    # ou
@@ -189,10 +184,10 @@ Si vous utilisez Docker, une configuration de base avec `docker-compose.yml` est
 
 ## Technologies utilisées
 
-- **Backend :** Laravel 10, Jetstream, Sanctum
-- **Frontend :** React, TypeScript, Vite
+- **Backend :** Laravel 11, Jetstream, Sanctum
+- **Frontend :** React, TypeScript, Vite, Chakra-UI 3.0
 - **Base de données :** MySQL
-- **Autres :** Docker, Composer, Tailwind CSS
+- **Autres :** Docker, Composer, Redis(pour Linux sinon voir avec Docker)
 
 ## Contribution
 
